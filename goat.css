@@ -1,8 +1,4 @@
 body {
-    /*background-image: url('goat.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;*/
     margin: 0;
     font-family: fancy;
 }
@@ -34,19 +30,6 @@ body {
     text-decoration: none;
     color: #DADADA;
   }
-/*.title {
-    display: flex;
-    align-items: center;
-    height: 80vh;
-    color: #c07998;
-    font-size: 60px;
-    letter-spacing: 6px;
-    text-indent: 80px;
-    margin: 30px;
-    padding: 50px 0;
-    font-family: fancy;
-    mix-blend-mode: color-dodge;
-}*/
 
 @media(min-aspect-ratio: 16/9){
     .bgVid{
