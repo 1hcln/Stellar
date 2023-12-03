@@ -1,0 +1,67 @@
+body {
+    /*background-image: url('goat.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;*/
+    margin: 0;
+    font-family: fancy;
+}
+
+.bgVid {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+  .container {
+    display: flex;
+    height: 50vh;
+    width: 100vw;
+    align-items: flex-end;
+  }
+  
+  .container img {
+    width: 20vw;
+    margin-left: 10vw;
+    mix-blend-mode: overlay;
+  }
+
+ p{
+    margin-top: 0;
+    text-indent: 17vw;
+    font-size: 20px;
+    text-decoration: none;
+    color: #DADADA;
+  }
+/*.title {
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    color: #c07998;
+    font-size: 60px;
+    letter-spacing: 6px;
+    text-indent: 80px;
+    margin: 30px;
+    padding: 50px 0;
+    font-family: fancy;
+    mix-blend-mode: color-dodge;
+}*/
+
+@media(min-aspect-ratio: 16/9){
+    .bgVid{
+        width: 100%;
+        height: auto;
+    }
+}
+@media(max-aspect-ratio: 16/9){
+    .bgVid{
+        width: auto;
+        height: 100%;
+    }
+}
+
+@font-face {
+    font-family: fancy;
+    src: url(Righteous-Regular.ttf);
+}
